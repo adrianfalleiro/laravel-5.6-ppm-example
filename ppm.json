@@ -1,0 +1,17 @@
+{
+    "bridge": "HttpKernel",
+    "host": "127.0.0.1",
+    "port": 8080,
+    "workers": 1,
+    "app-env": "dev",
+    "debug": "1",
+    "logging": 1,
+    "static-directory": "",
+    "bootstrap": "laravel",
+    "max-requests": 1000,
+    "populate-server-var": true,
+    "socket-path": ".ppm\/run\/",
+    "pidfile": ".ppm\/ppm.pid",
+    "reload-timeout": 30,
+    "cgi-path": "\/usr\/local\/Cellar\/php\/7.2.4\/bin\/php-cgi"
+}
